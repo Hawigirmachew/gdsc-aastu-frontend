@@ -1,4 +1,4 @@
 # gdsc-aastu-frontend
-Tribute Page
+#Tribute Page
 This tribute page is about Dr. Norman Borlaug. The man who saved a billion lives
 

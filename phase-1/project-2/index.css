@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --max-width: 900px;
+}
+/* common for all */
+.container {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 2rem;
+  line-height: 2rem;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+h3 {
+  font-size: 1.4rem;
+}
+.fa-brands {
+  padding-right: 0.5rem;
+}
+
+/* common for some */
+.nav,
+section:nth-of-type(2n + 1) {
+  background-color: rgb(255, 44, 103);
+  color: #eee;
+}
+.nav_wrapper {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.fa-ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.nav-bar {
+  width: 28%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* main section */
+.section1_wrapper {
+  height: 290px;
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0 40px;
+}
+.sec_header {
+  width: 50%;
+}
+.download {
+  padding: 10px;
+  background-color: rgb(209, 211, 215);
+  color: black;
+}
+.download + .download {
+  margin-left: 3rem;
+}
+
+.dogImage {
+  height: 300px;
+  transform: rotate(15deg);
+}
+/* promotion */
+.promotion_wrapper {
+  margin-top: 4rem;
+  padding: 90px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.promotion_wrapper div {
+  max-width: 230px;
+  width: 100%;
+  text-align: center;
+}
+.icon {
+  max-width: 50px;
+  width: 100%;
+}
+/* testimony */
+.testimony_wrapper {
+  padding: 40px 0;
+}
+.review {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2rem;
+}
+.review_wrapper {
+  border: 1px solid white;
+  border-radius: 30px;
+  text-align: center;
+  padding: 20px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.test-image {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.company {
+  margin-top: 2rem;
+  text-align: center;
+}
+.company_logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 2rem;
+}
+.pricing {
+  height: 500px;
+}
+.pricing_wrapper {
+  padding: 20px 0;
+  text-align: center;
+}
+/* form */
+.columns {
+  float: left;
+  width: 28%;
+  padding: 8px;
+  margin-right: 2rem;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price .header {
+  background-color: #eee;
+  color: black;
+  font-size: 25px;
+}
+.price li:nth-of-type(2) {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.price li span {
+  font-size: 2rem;
+}
+
+.price li {
+  padding: 12px;
+  text-align: center;
+}
+
+.button {
+  background-color: #eee;
+  border: none;
+  color: black;
+  padding: 8px 54px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.download_wrapper {
+  padding: 40px 0;
+  text-align: center;
+}
+.download_wrapper p {
+  margin-bottom: 2rem;
+}
+.footer_wrapper {
+  padding: 40px 0;
+  text-align: center;
+}
+.icons {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
